@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="TaskManagerWeb:War">
+    <output-path>$PROJECT_DIR$/out/artifacts/TaskManagerWeb_War</output-path>
+    <root id="archive" name="TaskManagerWeb_War.war">
+      <element id="artifact" artifact-name="TaskManagerWeb:Web exploded" />
+    </root>
+  </artifact>
+</component>

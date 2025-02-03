@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TaskManagerWeb:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TaskManagerWeb_Web_exploded/WEB-INF/lib</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TaskManagerWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TaskManagerWeb" />
+          <element id="module-output" name="TaskManagerEngine" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/json-20250107.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
